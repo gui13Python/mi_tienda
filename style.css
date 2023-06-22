@@ -6,9 +6,10 @@ body {
 }
 
 header {
-  background-color: rgb(252, 246, 248);
+  background-color: rgb(252,246,248);
   padding: 20px;
   text-align: center;
+  opacity: 0.8;
 }
 
 main {
@@ -16,20 +17,32 @@ main {
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 20px;
+  background-color: rgb(255, 255, 255);
+  
+}
+
+body{
+    background-color: rgb(255, 255, 255);
 }
 
 .product {
+  display: column;
   width: 300px;
   margin-bottom: 30px;
   padding: 20px;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   text-align: center;
+  border-radius: 10%;
+  align-items: end;
+  justify-content: end;
+  
 }
 
 .product img {
   width: 200px;
   height: auto;
   margin-bottom: 15px;
+ border-radius: 10%;
 }
 
 footer {
@@ -61,6 +74,7 @@ footer {
 #titulo {
   font-family: "Courier New", Courier, monospace;
   color: rgba(98, 58, 98, 0.684);
+  
 }
 
 #logo {
@@ -80,6 +94,11 @@ p{
     font-family: --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     
     
+}
+
+#pale{
+    margin-top: 10px;
+    width: 300px;
 }
 
 
